@@ -73,7 +73,7 @@ namespace PrinterQueueWatch.SpoolerStructs
         {
 
             IntPtr BytesWritten;
-            IntPtr ptBuf;
+            IntPtr ptBuf = IntPtr.Zero;
 
 
             if (PrinterMonitorComponent.ComponentTraceSwitch.TraceVerbose)
@@ -236,7 +236,7 @@ namespace PrinterQueueWatch.SpoolerStructs
         {
 
             IntPtr BytesWritten;
-            IntPtr ptBuf;
+            IntPtr ptBuf = IntPtr.Zero;
 
             if (PrinterMonitorComponent.ComponentTraceSwitch.TraceVerbose)
             {

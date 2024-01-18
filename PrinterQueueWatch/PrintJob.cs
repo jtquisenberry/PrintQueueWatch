@@ -2956,20 +2956,20 @@ namespace PrinterQueueWatch
     #region Friend helper classes
     #region PrinterDataFile
     /// -----------------------------------------------------------------------------
-#Region "PrinterDataFile"/// Project	 : PrinterQueueWatch
-#Region "PrinterDataFile"/// Class	 : PrinterDataFile
-#Region "PrinterDataFile"/// 
-#Region "PrinterDataFile"/// -----------------------------------------------------------------------------
-#Region "PrinterDataFile"/// <summary>
-#Region "PrinterDataFile"/// An in-memory representation of a print spool file
-#Region "PrinterDataFile"/// </summary>
-#Region "PrinterDataFile"/// <remarks>
-#Region "PrinterDataFile"/// This class is for internal use of the PrintQueueWatch component
-#Region "PrinterDataFile"/// </remarks>
-#Region "PrinterDataFile"/// <history>
-#Region "PrinterDataFile"/// 	[Duncan]	05/12/2005	Created
-#Region "PrinterDataFile"/// </history>
-#Region "PrinterDataFile"/// -----------------------------------------------------------------------------
+    /// Project	 : PrinterQueueWatch
+    /// Class	 : PrinterDataFile
+    /// 
+    /// -----------------------------------------------------------------------------
+    /// <summary>
+    /// An in-memory representation of a print spool file
+    /// </summary>
+    /// <remarks>
+    /// This class is for internal use of the PrintQueueWatch component
+    /// </remarks>
+    /// <history>
+    /// 	[Duncan]	05/12/2005	Created
+    /// </history>
+    /// -----------------------------------------------------------------------------
     internal class PrinterDataFile
     {
 
@@ -3048,19 +3048,19 @@ namespace PrinterQueueWatch
 
     #region EMF Spool File
     /// -----------------------------------------------------------------------------
-#Region "EMF Spool File"/// Project	 : PrinterQueueWatch
-#Region "EMF Spool File"/// Class	 : EMF_SpoolFile
-#Region "EMF Spool File"/// 
-#Region "EMF Spool File"/// -----------------------------------------------------------------------------
-#Region "EMF Spool File"/// <summary>
-#Region "EMF Spool File"/// Helper class for EMF format spool file
-#Region "EMF Spool File"/// </summary>
-#Region "EMF Spool File"/// <remarks>
-#Region "EMF Spool File"/// </remarks>
-#Region "EMF Spool File"/// <history>
-#Region "EMF Spool File"/// 	[Duncan]	12/12/2005	Created
-#Region "EMF Spool File"/// </history>
-#Region "EMF Spool File"/// -----------------------------------------------------------------------------
+    /// Project	 : PrinterQueueWatch
+    /// Class	 : EMF_SpoolFile
+    /// 
+    /// -----------------------------------------------------------------------------
+    /// <summary>
+    /// Helper class for EMF format spool file
+    /// </summary>
+    /// <remarks>
+    /// </remarks>
+    /// <history>
+    /// 	[Duncan]	12/12/2005	Created
+    /// </history>
+    /// -----------------------------------------------------------------------------
     internal class EMF_SpoolFile
     {
 
@@ -3628,19 +3628,19 @@ namespace PrinterQueueWatch
 
     #region PCL XL Spool File
     /// -----------------------------------------------------------------------------
-#Region "PCL XL Spool File"/// Project	 : PrinterQueueWatch
-#Region "PCL XL Spool File"/// Class	 : PCLXLSpoolFile
-#Region "PCL XL Spool File"/// 
-#Region "PCL XL Spool File"/// -----------------------------------------------------------------------------
-#Region "PCL XL Spool File"/// <summary>
-#Region "PCL XL Spool File"/// Helper class for PCL XL format spool file
-#Region "PCL XL Spool File"/// </summary>
-#Region "PCL XL Spool File"/// <remarks>
-#Region "PCL XL Spool File"/// </remarks>
-#Region "PCL XL Spool File"/// <history>
-#Region "PCL XL Spool File"/// 	[Duncan]	13/12/2005	Created
-#Region "PCL XL Spool File"/// </history>
-#Region "PCL XL Spool File"/// -----------------------------------------------------------------------------
+    /// Project	 : PrinterQueueWatch
+    /// Class	 : PCLXLSpoolFile
+    /// 
+    /// -----------------------------------------------------------------------------
+    /// <summary>
+    /// Helper class for PCL XL format spool file
+    /// </summary>
+    /// <remarks>
+    /// </remarks>
+    /// <history>
+    /// 	[Duncan]	13/12/2005	Created
+    /// </history>
+    /// -----------------------------------------------------------------------------
     internal class PCLXLSpoolFile
     {
 

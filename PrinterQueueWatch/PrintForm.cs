@@ -290,7 +290,7 @@ namespace PrinterQueueWatch
         internal PrinterFormCollection(IntPtr hPrinter)
         {
 
-            IntPtr pForm;
+            IntPtr pForm = IntPtr.Zero;
             int pcbNeeded;
             int pcFormsReturned;
             int pcbProvided;

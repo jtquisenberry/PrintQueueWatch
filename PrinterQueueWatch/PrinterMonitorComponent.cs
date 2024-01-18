@@ -1401,11 +1401,11 @@ namespace PrinterQueueWatch
 
     #region MonitoredPrinters collection class
     /// <summary>
-#Region "MonitoredPrinters collection class"/// A type safe collection of PrinterInformation objects representing 
-#Region "MonitoredPrinters collection class"/// the printers being monitored by any given PrinterMonitorComponent
-#Region "MonitoredPrinters collection class"/// Unique key is Printer.DeviceName
-#Region "MonitoredPrinters collection class"/// </summary>
-#Region "MonitoredPrinters collection class"/// <remarks></remarks>
+    /// A type safe collection of PrinterInformation objects representing 
+    /// the printers being monitored by any given PrinterMonitorComponent
+    /// Unique key is Printer.DeviceName
+    /// </summary>
+    /// <remarks></remarks>
     internal class MonitoredPrinters : IDisposable
     {
 

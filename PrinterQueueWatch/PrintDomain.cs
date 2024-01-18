@@ -189,7 +189,7 @@ namespace PrinterQueueWatch
             // \\ Return all the print providors visible from this machine
             int pcbNeeded; // \\ Holds the requires size of the output buffer (in bytes)
             int pcReturned; // \\ Holds the returned size of the output buffer 
-            IntPtr pDomains;
+            IntPtr pDomains = IntPtr.Zero;
             int pcbProvided;
 
             if (!UnsafeNativeMethods.EnumPrinters(SpoolerApiConstantEnumerations.EnumPrinterFlags.PRINTER_ENUM_NAME, ProvidorName, 1, pDomains, 0, out pcbNeeded, out pcReturned))

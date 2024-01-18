@@ -499,7 +499,7 @@ namespace PrinterQueueWatch
         {
             int pcbNeeded; // \\ Holds the requires size of the output buffer (in bytes)
             int pcReturned; // \\ Holds the returned size of the output buffer (in bytes)
-            IntPtr pDriverInfo;
+            IntPtr pDriverInfo = IntPtr.Zero;
             int nItem;
             IntPtr pNextDriverInfo;
 
@@ -537,7 +537,7 @@ namespace PrinterQueueWatch
 
             int pcbNeeded; // \\ Holds the requires size of the output buffer (in bytes)
             int pcReturned; // \\ Holds the returned size of the output buffer (in bytes)
-            IntPtr pDriverInfo;
+            IntPtr pDriverInfo = IntPtr.Zero;
             int nItem;
             IntPtr pNextDriverInfo;
 

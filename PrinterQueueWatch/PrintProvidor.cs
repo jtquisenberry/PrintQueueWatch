@@ -210,7 +210,7 @@ namespace PrinterQueueWatch
             // \\ Return all the print providors visible from this machine
             int pcbNeeded; // \\ Holds the requires size of the output buffer (in bytes)
             int pcReturned; // \\ Holds the returned size of the output buffer 
-            IntPtr pProvidors;
+            IntPtr pProvidors = IntPtr.Zero;
             int pcbProvided;
 
             // If Not EnumPrinters(0,string.Empty  1, 0, 0, pcbNeeded, pcReturned) Then

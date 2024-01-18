@@ -2401,19 +2401,19 @@ namespace PrinterQueueWatch
 
     #region PrinterInformationCollection
     /// -----------------------------------------------------------------------------
-#Region "PrinterInformationCollection"/// Project	 : PrinterQueueWatch
-#Region "PrinterInformationCollection"/// Class	 : PrinterInformationCollection
-#Region "PrinterInformationCollection"/// 
-#Region "PrinterInformationCollection"/// -----------------------------------------------------------------------------
-#Region "PrinterInformationCollection"/// <summary>
-#Region "PrinterInformationCollection"/// A collection of printer information classes
-#Region "PrinterInformationCollection"/// </summary>
-#Region "PrinterInformationCollection"/// <remarks>
-#Region "PrinterInformationCollection"/// </remarks>
-#Region "PrinterInformationCollection"/// <history>
-#Region "PrinterInformationCollection"/// 	[Duncan]	20/11/2005	Created
-#Region "PrinterInformationCollection"/// </history>
-#Region "PrinterInformationCollection"/// -----------------------------------------------------------------------------
+    /// Project	 : PrinterQueueWatch
+    /// Class	 : PrinterInformationCollection
+    /// 
+    /// -----------------------------------------------------------------------------
+    /// <summary>
+    /// A collection of printer information classes
+    /// </summary>
+    /// <remarks>
+    /// </remarks>
+    /// <history>
+    /// 	[Duncan]	20/11/2005	Created
+    /// </history>
+    /// -----------------------------------------------------------------------------
     [System.Security.SuppressUnmanagedCodeSecurity()]
     [ComVisible(false)]
     public class PrinterInformationCollection : System.Collections.Generic.List<PrinterInformation>
@@ -2442,7 +2442,7 @@ namespace PrinterQueueWatch
         {
             int pcbNeeded; // \\ Holds the requires size of the output buffer (in bytes)
             int pcReturned; // \\ Holds the returned size of the output buffer 
-            IntPtr pPrinters;
+            IntPtr pPrinters = IntPtr.Zero;
             int pcbProvided = 0;
 
             if (!UnsafeNativeMethods.EnumPrinters(EnumPrinterFlags.PRINTER_ENUM_NAME, string.Empty, 1, pPrinters, 0, out pcbNeeded, out pcReturned))
@@ -2499,7 +2499,7 @@ namespace PrinterQueueWatch
         {
             int pcbNeeded; // \\ Holds the requires size of the output buffer (in bytes)
             int pcReturned; // \\ Holds the returned size of the output buffer 
-            IntPtr pPrinters;
+            IntPtr pPrinters = IntPtr.Zero;
             int pcbProvided = 0;
 
             if (!UnsafeNativeMethods.EnumPrinters(EnumPrinterFlags.PRINTER_ENUM_NAME, Servername, 1, pPrinters, 0, out pcbNeeded, out pcReturned))
