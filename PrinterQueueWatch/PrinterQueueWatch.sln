@@ -6,6 +6,8 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "PrinterQueueWatch", "Printe
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "PrinterQueueWatch.TestApplication", "..\PrinterQueueWatch.TestApplication\PrinterQueueWatch.TestApplication.vbproj", "{3E748534-3319-4BC7-8D51-5D5CAE5941D2}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "PrintWatchTest", "..\PrintWatchTest\PrintWatchTest.vbproj", "{365C49D6-A9FF-49B0-BCC2-C974F625B931}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +22,10 @@ Global
 		{3E748534-3319-4BC7-8D51-5D5CAE5941D2}.Debug|Any CPU.Build.0 = Debug|x64
 		{3E748534-3319-4BC7-8D51-5D5CAE5941D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E748534-3319-4BC7-8D51-5D5CAE5941D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{365C49D6-A9FF-49B0-BCC2-C974F625B931}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{365C49D6-A9FF-49B0-BCC2-C974F625B931}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{365C49D6-A9FF-49B0-BCC2-C974F625B931}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{365C49D6-A9FF-49B0-BCC2-C974F625B931}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

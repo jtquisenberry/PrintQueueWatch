@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "PrintWatchTest", "PrintWatchTest.vbproj", "{365C49D6-A9FF-49B0-BCC2-C974F625B931}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "PrinterQueueWatch", "..\printwatchvbnet_src\PrinterQueueWatch.vbproj", "{2B902455-F952-40FC-833B-1AE0B3C1756D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{365C49D6-A9FF-49B0-BCC2-C974F625B931}.Debug.ActiveCfg = Debug|.NET
+		{365C49D6-A9FF-49B0-BCC2-C974F625B931}.Debug.Build.0 = Debug|.NET
+		{365C49D6-A9FF-49B0-BCC2-C974F625B931}.Release.ActiveCfg = Release|.NET
+		{365C49D6-A9FF-49B0-BCC2-C974F625B931}.Release.Build.0 = Release|.NET
+		{2B902455-F952-40FC-833B-1AE0B3C1756D}.Debug.ActiveCfg = Debug|.NET
+		{2B902455-F952-40FC-833B-1AE0B3C1756D}.Debug.Build.0 = Debug|.NET
+		{2B902455-F952-40FC-833B-1AE0B3C1756D}.Release.ActiveCfg = Release|.NET
+		{2B902455-F952-40FC-833B-1AE0B3C1756D}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

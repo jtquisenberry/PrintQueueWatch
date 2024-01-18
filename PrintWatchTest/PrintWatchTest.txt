@@ -1,0 +1,55 @@
+; PrintWatchTest.txt - The string resource file for the Print Watch Test application
+; (c) 2003 Merrion Computing Ltd
+;
+; To convert this to a resources file use: RESGEN.exe PrintWatchTest.txt PrintWatchTest.resources
+;
+; To link the resources only dll use: al /out:PrintWatchTest.Resources.dll
+;                                     /embedresource:PrintWatchTest.resources,PrintWatchTest.resources,Private 
+;                                     /keyfile:resources.snk
+
+
+; 'Hard coded' strings 
+
+; 1 - Tracing
+pwt_Start=Print Watch Test started at
+pwt_End=Print Watch Test ended at
+
+; 2 - Printer monitoring main form
+; 2.1 Menus
+MenuItemFile=&File
+MenuItemFileOptions=&Options
+MenuItemFileExit=E&xit
+
+MenuItemPrinters=&Printers
+MenuItemPrintersAdminister=&Administer
+MenuItemPrintersHistory=&Event History
+
+MenuItemWindow=&Window
+MenuItemWindowArrange=&Arrange
+MenuItemWindowArrangeTile=&Tile
+MenuItemWindowArrangeCascade=&Cascade
+
+MenuItemHelp=&Help
+MenuItemHelpIndex=&Index
+MenuItemHelpAbout=&About
+
+; 2.2 Status bar text
+sbt_Monitoring=Printers actively being monitored
+sbt_Inactive=No printers actively being monitored
+
+
+
+; 3 - PrinterHeaderForm
+; 3.1 LabelFunction
+LabelFunctionAdminister=Administer printer :
+LabelFunctionHistory=History of :
+LabelFunctionMonitoring=Monitoring :
+LabelFunctionReports=Reports for :
+
+; 4 - Printer history form
+; 4.1 Print Job event types
+ev_Added=Print Job Added
+ev_Deleted=Print Job Deleted
+ev_Set=Print Job Details Changed
+ev_Written=Print Job Written
+
