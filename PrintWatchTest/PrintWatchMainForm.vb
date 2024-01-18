@@ -98,22 +98,13 @@ Public Class PrintWatchMainForm
         Me.MenuItemHelpAbout = New System.Windows.Forms.MenuItem()
         Me.txtPrintjobEvents = New System.Windows.Forms.TextBox()
         Me.PanelOptionBar = New System.Windows.Forms.Panel()
-<<<<<<< Updated upstream
         Me.PrinterMonitorComponent1 = New PrinterQueueWatch.PrinterMonitorComponent(Me.components)
         Me.txtWarnings = New System.Windows.Forms.TextBox()
-=======
-        Me.txtWarnings = New System.Windows.Forms.TextBox()
-        Me.PrinterMonitorComponent1 = New PrinterQueueWatch.PrinterMonitorComponent(Me.components)
->>>>>>> Stashed changes
         Me.SuspendLayout()
         '
         'StatusBarMonitoringMain
         '
-<<<<<<< Updated upstream
         Me.StatusBarMonitoringMain.Location = New System.Drawing.Point(0, 263)
-=======
-        Me.StatusBarMonitoringMain.Location = New System.Drawing.Point(0, 242)
->>>>>>> Stashed changes
         Me.StatusBarMonitoringMain.Name = "StatusBarMonitoringMain"
         Me.StatusBarMonitoringMain.Size = New System.Drawing.Size(456, 24)
         Me.StatusBarMonitoringMain.TabIndex = 1
@@ -195,11 +186,7 @@ Public Class PrintWatchMainForm
         'txtPrintjobEvents
         '
         Me.txtPrintjobEvents.Dock = System.Windows.Forms.DockStyle.Bottom
-<<<<<<< Updated upstream
         Me.txtPrintjobEvents.Location = New System.Drawing.Point(0, 223)
-=======
-        Me.txtPrintjobEvents.Location = New System.Drawing.Point(0, 202)
->>>>>>> Stashed changes
         Me.txtPrintjobEvents.Multiline = True
         Me.txtPrintjobEvents.Name = "txtPrintjobEvents"
         Me.txtPrintjobEvents.Size = New System.Drawing.Size(456, 40)
@@ -210,11 +197,7 @@ Public Class PrintWatchMainForm
         Me.PanelOptionBar.Dock = System.Windows.Forms.DockStyle.Left
         Me.PanelOptionBar.Location = New System.Drawing.Point(0, 0)
         Me.PanelOptionBar.Name = "PanelOptionBar"
-<<<<<<< Updated upstream
         Me.PanelOptionBar.Size = New System.Drawing.Size(144, 223)
-=======
-        Me.PanelOptionBar.Size = New System.Drawing.Size(144, 202)
->>>>>>> Stashed changes
         Me.PanelOptionBar.TabIndex = 5
         '
         'txtWarnings
@@ -233,11 +216,7 @@ Public Class PrintWatchMainForm
         'PrintWatchMainForm
         '
         Me.AutoScaleBaseSize = New System.Drawing.Size(5, 13)
-<<<<<<< Updated upstream
         Me.ClientSize = New System.Drawing.Size(456, 287)
-=======
-        Me.ClientSize = New System.Drawing.Size(456, 266)
->>>>>>> Stashed changes
         Me.Controls.Add(Me.txtWarnings)
         Me.Controls.Add(Me.PanelOptionBar)
         Me.Controls.Add(Me.txtPrintjobEvents)
