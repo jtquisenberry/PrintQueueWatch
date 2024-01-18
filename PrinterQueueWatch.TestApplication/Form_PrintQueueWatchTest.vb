@@ -29,7 +29,7 @@
     Private Sub PrinterMonitorComponent1_JobAdded(sender As Object, e As PrintJobEventArgs) Handles PrinterMonitorComponent1.JobAdded
         System.Diagnostics.Trace.TraceInformation("Job added " & e.PrintJob.JobId & " called " & e.PrintJob.Document & " on " & e.PrintJob.PrinterName)
 
-        'Do any other fundctionality here...
+        'Do any other fundctionality here... 
 
     End Sub
 
